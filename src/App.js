@@ -6,7 +6,6 @@ import ShopCategory from './Pages/ShopCategory';
 import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
-import Hero from './Conponents/Hero/Hero';
 
 
 function App() {
@@ -24,11 +23,8 @@ function App() {
           </Route>
           <Route path='/cart' element={<Cart />} />
           <Route path='/login' element={<LoginSignup />} />
-
         </Routes>
-        
       </BrowserRouter>
-      <Hero/>
     </div>
   );
 }
